@@ -1,15 +1,15 @@
-# live-coding-weather-adapter
+# product service
 
-The weather service provides an api to connect to the https://openweathermap.org/ APIs to retrieve the weather forecast for a specific region.
+The product service provides a really simplified product query API that can be used to retrieve mock products for the live coding sample case.
 
 ## Setting the applications port
 You can define the applications port by setting the environment variable
 
 ```
-PORT=8081
+PORT=8080
 ```
 
-If not defined the default port is **8081**.
+If not defined the default port is **8080**.
 
 ## How to run
 You can start the application in production mode using following command.
